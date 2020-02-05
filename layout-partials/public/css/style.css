@@ -1,0 +1,24 @@
+body {
+    font-weight: 100;
+    font-family: sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 100;
+}
+
+h1 {
+    margin-bottom: 50px;
+}
+
+.navbar {
+    margin-bottom: 50px;
+}
+
+.player.card img {
+    height: 150px;
+}
+
+.player.card {
+    margin-bottom: 20px;
+}

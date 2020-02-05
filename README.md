@@ -15,7 +15,7 @@
 ## Main points: layout
 
 - El layout debe tener el nombre `layout.hbs`
-- Debe contener la información dinámica en **{{{body}}}**
+- Debe contener la información dinámica en `{{{body}}}`
 
 
 ## Main points: partials
@@ -33,7 +33,7 @@
 - Para gestionar una BBDD mediante mongoose es necesario:
   * Requerir `mongoose`
   * Conectarse a la BBDD mediante el método `.connect()`
-  * Crear un modelo mediante el méoto `.model('Name', Schema)`
+  * Crear un modelo mediante el método `.model('Name', Schema)` en el directorio `models`, exportándolo mediante `module.exports`e importándolo en cualquier archivo mediante `require()`.
   * Utilizarlo con los métodos CRUD de Mongoose (todos retornan una promesa):
     * `.create()`
     * `.insertMany()`

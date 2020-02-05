@@ -17,6 +17,7 @@ h1 {
 
 .player.card img {
     height: 150px;
+    object-fit: cover;
 }
 
 .player.card {

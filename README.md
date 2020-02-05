@@ -22,7 +22,7 @@
 
 - Para usar partials es necesario:
   * Requerir `hbs`
-  * Registrar su directorio a través de `hbs.registerPartials()`
+  * Registrar su directorio a través de `hbs.registerPartials(path)`
   * Incluir los parciales (sin guiones medios en el nombre) en el directorio registrado (`views/partials`)
 - Un partial puede ser incluido en un hbs mediante al sintaxis `{{> partialName}}`
 - Puede recibir datos tras el nombre: `{{> partialName this}}`

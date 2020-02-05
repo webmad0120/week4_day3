@@ -24,8 +24,8 @@
   * Requerir `hbs`
   * Registrar su directorio a través de `hbs.registerPartials()`
   * Incluir los parciales (sin guiones medios en el nombre) en el directorio registrado (`views/partials`)
-- Un partial puede ser incluido en un hbs mediante al sintaxis `{{> nombreDelPartial}}`
-- Puede recibir datos tras el nombre: `{{> nombreDelPartial this}}`
+- Un partial puede ser incluido en un hbs mediante al sintaxis `{{> partialName}}`
+- Puede recibir datos tras el nombre: `{{> partialName this}}`
 
 
 ## Main points: Mongoose
